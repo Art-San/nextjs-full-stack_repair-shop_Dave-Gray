@@ -1,22 +1,22 @@
 # User Stories for Repair Shop App
 
-1. [ ] Replace current sticky note system
-2. [x] Add a public facing page with basic contact info
-3. [ ] Add a passwordless employee login to the app
-4. [ ] Show a real-time open tickets page after login
-5. [ ] Provide easy navigation & search for customers & tickets
-6. [ ] Provide a logout option
-7. [ ] Require users to login at least once per week
-8. [ ] Provide a way to remove employee access asap if needed
-9. [ ] Customers have an ID, full address, phone, email & notes
-10. [ ] Tickets have an ID, title, notes, created & updated dates
-11. [ ] Tickets are either OPEN or COMPLETED
-12. [ ] Tickets are assigned to specific employees
-13. [ ] Users can have Employee, Manager, or Admin permissions
-14. [ ] All users can create and view tickets
-15. [ ] All users can create, edit and view customers
-16. [ ] Employees can only edit their assigned tickets
-17. [ ] Managers and Admins can view, edit, and delete all tickets
-18. [ ] Desktop mode is most important but the app should be usable on tablet devices as well.
-19. [x] Light / Dark mode option requested by employees
-20. [x] Expects quick support if anything goes wrong with the app
+1. [ ] Заменить текущую систему стикеров.
+2. [x] Добавьте общедоступную страницу с основной контактной информацией.
+3. [x] Добавьте в приложение беспарольный логин сотрудника.
+4. [ ] Показывать страницу открытых заявок в реальном времени после входа в систему.
+5. [ ] Обеспечьте удобную навигацию и поиск клиентов и билетов.
+6. [x] Предоставьте возможность выхода из системы.
+7. [x] Требовать от пользователей входа в систему хотя бы раз в неделю.
+8. [x] Предоставьте возможность как можно скорее закрыть доступ сотрудников, если это необходимо.
+9. [x] У клиентов есть идентификатор, полный адрес, телефон, адрес электронной почты и заметки.
+10. [x] Заявки имеют идентификатор, название, примечания, даты создания и обновления.
+11. [x] Заявки либо ОТКРЫТЫ, либо ЗАВЕРШЕНЫ.
+12. [x] Заявки назначаются конкретным сотрудникам
+13. [x] Пользователи могут иметь права сотрудника, менеджера или администратора.
+14. [ ] Все пользователи могут создавать и просматривать заявки.
+15. [ ] Все пользователи могут создавать, редактировать и просматривать клиентов.
+16. [ ] Сотрудники могут редактировать только назначенные им заявки.
+17. [ ] Менеджеры и администраторы могут просматривать, редактировать и удалять все заявки.
+18. [ ] Режим рабочего стола наиболее важен, но приложение должно быть доступно и на планшетных устройствах.
+19. [x] Опция светлого/темного режима, запрошенная сотрудниками
+20. [x] Ожидает быстрой поддержки, если с приложением что-то пойдет не так.
