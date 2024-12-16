@@ -18,6 +18,9 @@ import { CheckboxWithLabel } from '@/components/inputs/CheckboxWithLabel'
 import { StatesArray } from '@/constants/StatesArray'
 import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
 
+import { useAction } from 'next-safe-action/hooks'
+import { saveCustomerAction } from '@/app/actions/saveCustomerAction'
+
 type Props = {
   customer?: selectCustomerSchemaType
 }
@@ -46,6 +49,13 @@ export default function CustomerForm({ customer }: Props) {
     resolver: zodResolver(insertCustomerSchema),
     defaultValues
   })
+
+  const {
+    execute: executeSave,
+    result: saveResult,
+    isPending: isSaving,
+    reset: resetSaveAction
+  } = useAction(saveCustomerAction, {})
 
   async function submitForm(data: insertCustomerSchemaType) {
     console.log(data)
