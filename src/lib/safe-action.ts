@@ -17,6 +17,7 @@ export const actionClient = createSafeActionClient({
       scope.setContext('clientInput', { clientInput })
       return scope
     })
+    // console.log(123, e.constructor.name)
     if (e.constructor.name === 'NeonDbError') {
       return 'Ошибка базы данных: ваши данные не сохранились. Служба поддержки будет уведомлена.'
     }
